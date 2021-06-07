@@ -2,4 +2,9 @@ html
   head
     base(href="/")
   body
-    .container(ui-view="main")
+    .container
+      a(ui-sref="state1" ui-sref-active="active")
+        | Component1
+      a(ui-sref="state2" ui-sref-active="active")
+        | Component2
+      ui-view
