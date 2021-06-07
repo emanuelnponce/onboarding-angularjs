@@ -41,7 +41,8 @@ Al hacer click sobre el autor de algún libro, deberá redirigir a la **pantalla
 	- Biografía: author.biography
 	
 > **Consideraciones**
- -- Se deberá mostrar un botón en la parte superior izquierda de la pantalla con el texto "Volver". Al hacer click sobre el mismo, deberá redirigir a la pantalla del listado de libros.
+>
+>  Se deberá mostrar un botón en la parte superior izquierda de la pantalla con el texto "Volver". Al hacer click sobre el mismo, deberá redirigir a la pantalla del listado de libros.
 
  3. **Formularios de carga:** Esta pantalla deberá contener dos formularios, uno para cargar nuevos autores al sistema y otro para cargar nuevos libros.
 	 - Inputs del Formulario de autor: 
@@ -58,7 +59,8 @@ Al hacer click sobre el autor de algún libro, deberá redirigir a la **pantalla
 	   - Autor: select *(requerido, deberá listar los autores presentes en el sistema)*
 
 > **Consideraciones**
- -- Al insertar un nuevo autor en el sistema, el select asociado al autor del formulario de carga de un libro deberá actualizarse sin necesidad de refrescar la pantalla.
+> 
+> Al insertar un nuevo autor en el sistema, el select asociado al autor del formulario de carga de un libro deberá actualizarse sin necesidad de refrescar la pantalla.
 	  
 Además de estas 3 vistas, se deberá implementar un menú para poder redirigir a la **pantalla 1** y a la **pantalla 3**.
 
