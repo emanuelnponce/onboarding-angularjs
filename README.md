@@ -31,9 +31,9 @@ La web deberá contar con 3 pantallas:
 |---      |:---:|---|---|---|
 | book.id | book.isbn | book.title | book.price.value + book.price.currency | book.author.name |  
 
-Al hacer click sobre el autor de algún libro, deberá redirigir a la **pantalla 2**.
+Al hacer click sobre el autor de algún libro, se deberá activar una subsección en la pantalla (que se detalla a continuación) para mostrar los detalles del autor.
 
- 2. **Detalles del autor:** Esta pantalla deberá mostrar los datos específicos de un autor determinado, según la fila que se haya seleccionado en la **pantalla 1** . El listado deberá mostrar:
+-   **Detalles del autor (Subsección de la pantalla 1):** Esta sección dinámica deberá mostrar los datos específicos de un autor determinado, según la fila que se haya seleccionado en la **pantalla 1** . El listado de la sección deberá mostrar:
 	- Id: author.id
 	- Nombre: author.name
 	- Website: author.website
@@ -42,7 +42,7 @@ Al hacer click sobre el autor de algún libro, deberá redirigir a la **pantalla
 	
 > **Consideraciones**
 >
->  Se deberá mostrar un botón en la parte superior izquierda de la pantalla con el texto "Volver". Al hacer click sobre el mismo, deberá redirigir a la pantalla del listado de libros.
+>  Se deberá mostrar un botón dentro de esta sección con el texto "Cerrar", en donde al hacer click sobre el mismo, deberá cerrar dicha sección para continuar visualizando únicamente el listado de libros.
 
  3. **Formularios de carga:** Esta pantalla deberá contener dos formularios, uno para cargar nuevos autores al sistema y otro para cargar nuevos libros.
 	 - Inputs del Formulario de autor: 
