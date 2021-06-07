@@ -1,3 +1,5 @@
+# AngularJs - Onboarding
+
 Proyecto base para realizar el onboarding de Angularjs.
 Se utiliza sass para las hojas de estilo y pug para el html (https://pugjs.org/api/getting-started.html).
 Estrucura básica:
